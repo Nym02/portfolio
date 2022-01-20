@@ -5,7 +5,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "postcss ./assets/style/tailwind.css -o ./assets/style/main.css",
-    "build:watch": "postcss ./assets/style/tailwind.css -o ./assets/style/main.css --watch",
+    "dev": "tailwindcss -i ./assets/style/tailwind.css -o ./assets/style/main.css --watch",
     "prod": "NODE_ENV=production postcss ./assets/style/tailwind.css -o ./assets/style/main.css",
     "purged:css": "npx tailwind -o ./assets/style/main.css --jit --purge './**/*.html' "
   },

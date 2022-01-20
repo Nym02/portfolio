@@ -1,8 +1,8 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
+  mode: "jit",
   purge: ["./**/*.html"],
-  presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
@@ -857,6 +857,7 @@ module.exports = {
         stolzl: "'Stolzl', sans-serif",
         sphere: "'sphere', noto sans",
         stolzlBook: "'Stolzl Book', sans-serif",
+        logo: "'Fredericka the Great', cursive",
       },
     },
   },
