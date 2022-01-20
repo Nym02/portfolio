@@ -996,10 +996,6 @@ video {
   width: 100%;
 }
 
-.w-16{
-  width: 4rem;
-}
-
 .w-7{
   width: 1.75rem;
 }
@@ -1177,10 +1173,6 @@ video {
   border-right-width: 2px;
 }
 
-.border-t{
-  border-top-width: 1px;
-}
-
 .border-accent{
   --tw-border-opacity: 1;
   border-color: rgba(13, 45, 82, var(--tw-border-opacity));
@@ -1213,11 +1205,6 @@ video {
 .border-light{
   --tw-border-opacity: 1;
   border-color: rgba(86, 130, 179, var(--tw-border-opacity));
-}
-
-.border-accetnLight{
-  --tw-border-opacity: 1;
-  border-color: rgba(13, 59, 109, var(--tw-border-opacity));
 }
 
 .bg-main{
@@ -1379,16 +1366,16 @@ video {
   font-family: 'Stolzl', sans-serif;
 }
 
+.font-logo{
+  font-family: 'Fredericka the Great', cursive;
+}
+
 .font-sphere{
   font-family: 'sphere', noto sans;
 }
 
 .font-stolzlBook{
   font-family: 'Stolzl Book', sans-serif;
-}
-
-.font-logo{
-  font-family: 'Fredericka the Great', cursive;
 }
 
 .text-2xl{
@@ -1399,6 +1386,11 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl{
@@ -1424,11 +1416,6 @@ video {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-base{
